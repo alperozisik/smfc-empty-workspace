@@ -4,7 +4,6 @@
 			"id": "7761adc8",
 			"initialized": true,
 			"userProps": {
-				"isRemovable": true,
 				"orientation": "PORTRAIT",
 				"backgroundColor": "rgba( 197, 210, 28, 1 )",
 				"flexProps": {
@@ -30,19 +29,14 @@
 					"c5abb100"
 				],
 				"parent": null,
-				"orientation": "PORTRAIT",
-				"isRemovable": true
+				"orientation": "PORTRAIT"
 			}
 		},
 		{
 			"type": "StatusBar",
 			"id": "a829471c",
 			"userProps": {
-				"isRemovable": false,
-				"visible": true,
-				"font": {},
-				"flexProps": {},
-				"defaults": {}
+				"visible": true
 			},
 			"themeProps": {
 				"StatusBar": "Default"
@@ -51,8 +45,7 @@
 			"props": {
 				"name": "statusBar",
 				"children": [],
-				"parent": "7761adc8",
-				"isRemovable": false
+				"parent": "7761adc8"
 			}
 		},
 		{
@@ -61,11 +54,7 @@
 			"userProps": {
 				"title": "page2",
 				"titleColor": "rgba( 0, 0, 0, 1 )",
-				"isRemovable": false,
-				"visible": true,
-				"font": {},
-				"flexProps": {},
-				"defaults": {}
+				"visible": true
 			},
 			"themeProps": {
 				"HeaderBar": "Default"
@@ -75,8 +64,7 @@
 				"name": "headerBar",
 				"title": "page2",
 				"children": [],
-				"parent": "7761adc8",
-				"isRemovable": false
+				"parent": "7761adc8"
 			}
 		},
 		{
@@ -148,7 +136,7 @@
 					"flexGrow": 2
 				},
 				"font": {
-					"family": "Arial",
+					"family": "Default",
 					"size": 16
 				}
 			},

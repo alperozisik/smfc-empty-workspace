@@ -4,7 +4,6 @@
 			"id": "e891b86d",
 			"initialized": true,
 			"userProps": {
-				"isRemovable": true,
 				"orientation": "PORTRAIT",
 				"backgroundColor": "#EEEEEE",
 				"paddingLeft": 10,
@@ -34,15 +33,13 @@
 					"d0fa9c62"
 				],
 				"parent": null,
-				"orientation": "PORTRAIT",
-				"isRemovable": true
+				"orientation": "PORTRAIT"
 			}
 		},
 		{
 			"type": "StatusBar",
 			"id": "42b807d1",
 			"userProps": {
-				"isRemovable": false,
 				"visible": true
 			},
 			"themeProps": {
@@ -52,8 +49,7 @@
 			"props": {
 				"name": "statusBar",
 				"children": [],
-				"parent": "e891b86d",
-				"isRemovable": false
+				"parent": "e891b86d"
 			}
 		},
 		{
@@ -62,7 +58,6 @@
 			"userProps": {
 				"title": "page1",
 				"titleColor": "rgba( 0, 0, 0, 1 )",
-				"isRemovable": false,
 				"visible": true
 			},
 			"themeProps": {
@@ -73,8 +68,7 @@
 				"name": "headerBar",
 				"title": "page1",
 				"children": [],
-				"parent": "e891b86d",
-				"isRemovable": false
+				"parent": "e891b86d"
 			}
 		},
 		{
@@ -110,7 +104,7 @@
 				},
 				"font": {
 					"size": 16,
-					"family": "Arial"
+					"family": "Default"
 				}
 			},
 			"themeProps": {
